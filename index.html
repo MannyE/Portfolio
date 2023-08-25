@@ -40,7 +40,7 @@
       <div class="main-buttons">
         <p>
           <a href="#contact-form" class="underline-style main-button">Contact Me</a><br class="small-break">
-          <a href=""class="underline-style main-button">Download Resume</a>
+          <a href="assets/Resume.pdf"class="underline-style main-button" target="_blank">Download Resume</a>
         </p>
       </div>
 
@@ -55,13 +55,6 @@
       </section>
 
     </section>
-    
-    <!-- 
-        Add Blinking arrow to urge the user to scroll down
-        Link to codepen: https://codepen.io/chloechoudesign/pen/XBWYvg
-    
-    -->
-
 
     <section class="experience">
       
@@ -71,7 +64,7 @@
           <h3 class="exp-head">Software Developer</h3>
           <p class="exp-desc">
             3 Years Experience<br>
-            <span class = "hide">Languages: C++, Java, Phython  <br>
+            <span class = "hide">Languages: C++, Java, C# (.NET)  <br>
             Paradigms: OOP, Functional</span>
           </p>
         </div>
@@ -79,7 +72,7 @@
           <div class="exp-card">
             <h3 class="exp-head">Front-End Web Dev</h3>
             <p class="exp-desc">
-              4 Years Experience <br>
+              3 Years Experience <br>
               <span class = "hide">Languages: HTML, CSS, JS (React) <br>
               Skills: Figma, Adobe XD</span>
             </p>
@@ -90,18 +83,18 @@
             <h3 class="exp-head">Back-End Web Dev</h3>
             <p class="exp-desc">
               2 Years Experience <br>
-              <span class = "hide">Languages: Node JS, PHP, GIT <br>
+              <span class = "hide">Languages: Node JS, PHP, SQL,  GIT <br>
               Skills: Ajax, REST APIs<br></span>
             </p>
           </div>
 
 
           <div class="exp-card">
-            <h3 class="exp-head">Data Science</h3>
+            <h3 class="exp-head">Machine Learning</h3>
             <p class="exp-desc">
               3 Year Experience <br>
-              <span class = "hide">Languaguages: R, SQL, NoSQL<br>
-              Skills: Machine Learning, Database Adminstration</span>
+              <span class = "hide">Languaguages: Python, R,<br>
+              Skills: Tensor Flow, Numpy, LLM, ... </span>
             </p>
           </div>
 
@@ -148,7 +141,7 @@
             HTML, CSS
           </p>
         </div>
-
+<!-- 
         <div class="proj-card">
           <div class="proj-img-container">
             <img src="assets/images/thumbnail-project-1-large.webp" alt="">
@@ -187,6 +180,10 @@
           <p class="proj-desc">
             HTML, CSS
           </p>
+        </div> -->
+
+        <div id="More">
+          <h1>More Coming Soon....</h1>
         </div>
       </div>
     </section>
@@ -201,14 +198,14 @@
         </div>
       
         <div class="contact-form contact-item" id = "contact-form">
-          <form action="#">
+          <form action="mailto:asante392@hotmail.com.com">
             <label for=""></label>
-            <input type="text" name = "name" placeholder="NAME" width="10"> <br>
+            <input type="text" name = "name" placeholder="NAME" width="10" required> <br>
       
             <label for="email"></label>
-            <input type="email" name = "email"placeholder="EMAIL"><br>
+            <input type="email" name = "email"placeholder="EMAIL" required><br>
       
-            <textarea name="" id="" cols="30" rows="10" placeholder="MESSAGE"></textarea><br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="MESSAGE" required></textarea><br>
             <button type="submit" value="Send message">SEND MESSAGE </button>
           </form>
         </div>
